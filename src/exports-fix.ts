@@ -1,0 +1,1 @@
+if(!window.exports) { exports = module.exports; }
