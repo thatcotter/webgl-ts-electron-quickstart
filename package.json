@@ -29,7 +29,7 @@
     "electron": "^16.0.6",
     "eslint": "^7.32.0",
     "pixi.js": "^6.2.1",
-    "three": "^0.136.0",
+    "three": "^0.137.4",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.2",
     "webpack": "^5.66.0",
