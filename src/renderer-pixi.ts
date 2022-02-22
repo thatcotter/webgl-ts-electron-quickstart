@@ -8,7 +8,7 @@ const ShaderSystem = PIXI.ShaderSystem
 install({ ShaderSystem })
 
 const load = (app: PIXI.Application) => {
-    return new Promise<void>((resolve) => {
+    return new Promise<void>((resolve: () => void) => {
         app.loader.add('assets/hello-world.png').load(() => {
             resolve();
         });
@@ -20,9 +20,9 @@ function initStats() {
     document.body.appendChild(stats.dom);
 }
 
-export const main = async () => {
+export const main = async (): Promise<void> => {
     // Actual app
-    let app = new PIXI.Application();
+    let app = new PIXI.Application({antialias: true, backgroundColor: 0x111111});
 
     initStats();
 

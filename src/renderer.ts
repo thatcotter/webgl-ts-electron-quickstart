@@ -13,4 +13,4 @@ pixiMain();
 
 // run three renderer
 // import { main as threeMain } from './renderer-three';
-// threeMain();
+// threeMaiin();

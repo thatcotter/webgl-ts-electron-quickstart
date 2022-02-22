@@ -22,7 +22,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 # Clone this repository
 git clone https://github.com/electron/electron-quick-start-typescript
 # Go into the repository
-cd electron-quick-start-typescript
+cd webgl-ts-electron-quickstart
 # Install dependencies
 npm install
 # Run the app
@@ -33,9 +33,10 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## Re-compile automatically
 
-To recompile automatically and to allow using [electron-reload](https://github.com/yan-foto/electron-reload), run this in a separate terminal:
+To recompile automatically and to allow using [electron-reload](https://github.com/yan-foto/electron-reload), run these commands in separate terminals:
 
 ```bash
+npm run compile
 npm run watch
 ```
 
