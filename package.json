@@ -22,6 +22,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@pixi/unsafe-eval": "^6.2.1",
+    "@types/dat.gui": "^0.7.7",
     "@types/node": "^17.0.19",
     "@types/offscreencanvas": "^2019.6.4",
     "@types/three": "^0.136.1",
@@ -29,6 +30,7 @@
     "@typescript-eslint/parser": "^4.33.0",
     "electron": "^16.0.6",
     "eslint": "^7.32.0",
+    "gsap": "^3.9.1",
     "pixi.js": "^6.2.1",
     "three": "^0.136.0",
     "ts-loader": "^9.2.6",
@@ -37,6 +39,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
+    "dat.gui": "^0.7.9",
     "electron-reload": "^2.0.0-alpha.1"
   }
 }

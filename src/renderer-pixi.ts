@@ -1,6 +1,7 @@
 import * as PIXI from "pixi.js"
 import { install } from '@pixi/unsafe-eval';
 import Stats from 'three/examples/jsm/libs/stats.module';
+import * as dat from 'dat.gui'
 
 let stats: any;
 
@@ -22,7 +23,13 @@ function initStats() {
 
 export const main = async (): Promise<void> => {
     // Actual app
-    let app = new PIXI.Application({antialias: true, backgroundColor: 0x111111});
+    let app = new PIXI.Application({ antialias: true, backgroundColor: 0x111111 });
+
+    // window.electronAPI.handleBackground((event: any, value: any) => {
+    //     console.log(event)
+    //     console.log(value)
+    //     app.renderer.backgroundColor = value
+    // })
 
     initStats();
 
@@ -74,3 +81,14 @@ function update(this: any, delta: number) {
 };
 
 // main();
+
+
+// export interface IElectronAPI {
+//     handleBackground: (callback: (event:any, value:any) => void) => void,
+// }
+
+// declare global {
+//     interface Window {
+//         electronAPI: IElectronAPI
+//     }
+// }

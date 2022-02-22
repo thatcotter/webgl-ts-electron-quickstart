@@ -1,6 +1,5 @@
 import { app, BrowserWindow } from "electron";
 import * as path from "path";
-import electronReload from 'electron-reload';
 
 function createWindow() {
   // Create the browser window.
@@ -9,7 +8,7 @@ function createWindow() {
     height: 600,
     webPreferences: {
       nodeIntegration: true,
-      contextIsolation: false,
+      contextIsolation: true,
       preload: path.join(__dirname, "preload.js"),
     },
     width: 800,
@@ -17,6 +16,13 @@ function createWindow() {
 
   // and load the index.html of the app.
   mainWindow.loadFile(path.join(__dirname, "../index.html"));
+  
+  // setInterval(() => {
+  //   // console.log('here')
+  //   const color = Math.round(Math.random() * 0xffffff);
+  //   console.log(color)
+  //   mainWindow.webContents.send('update-background', color)
+  // }, 1000)
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();

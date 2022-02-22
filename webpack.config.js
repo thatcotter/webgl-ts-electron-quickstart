@@ -6,7 +6,7 @@ module.exports = {
         aggregateTimeout: 200,
         poll: 1000,
       },
-    target: 'electron-renderer',
+    target: 'web',
     mode: 'development',
     devtool: 'inline-source-map',
     entry: `./src/renderer.ts`,
