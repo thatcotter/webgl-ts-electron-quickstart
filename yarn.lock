@@ -269,10 +269,10 @@
   resolved "https://registry.npmjs.org/@pixi/ticker/-/ticker-6.2.1.tgz"
   integrity sha512-J9UCTIJswM7HO76CtBpJAB+EMBxElmJ+JV9uTUQBGZVc6cmQI9JPPx1QcDWVkuF4qv1Keeh0Tjhnq8Sjc701AA==
 
-"@pixi/unsafe-eval@^6.2.1":
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/@pixi/unsafe-eval/-/unsafe-eval-6.2.1.tgz"
-  integrity sha512-vDd+eGY7J8sdLpNdblX6ek/5Pqicjh5jhek/mgCDbvNDVP0H/OuKky2rWANNpafeSO5kLbhEgXebYe5HTBmEfw==
+"@pixi/unsafe-eval@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@pixi/unsafe-eval/-/unsafe-eval-6.3.0.tgz#012832e1196e0d98eb90b3e3cd9e86ffb9f6fec0"
+  integrity sha512-c+xUFnWB2R7PuGp3JWzLa7DnylV5nEYXBvD0U2AmGXrl4VrnET2vtqkMiFXab1wx5svR+LnFrBBysLI+9e1Cbw==
 
 "@pixi/utils@6.2.1":
   version "6.2.1"
