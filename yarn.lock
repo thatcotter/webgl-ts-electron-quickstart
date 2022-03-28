@@ -347,10 +347,10 @@
   resolved "https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.6.4.tgz"
   integrity sha512-u8SAgdZ8ROtkTF+mfZGOscl0or6BSj9A4g37e6nvxDc+YB/oDut0wHkK2PBBiC2bNR8TS0CPV+1gAk4fNisr1Q==
 
-"@types/three@^0.136.1":
-  version "0.136.1"
-  resolved "https://registry.npmjs.org/@types/three/-/three-0.136.1.tgz"
-  integrity sha512-gzTw6RR4dU8sGf+RpLBWWKHRVIJ4gwKVQPk+IFCgha04Efg/itXYUalX6iBcYeSmaDu0qE5M7uTq0XLQpU4FAg==
+"@types/three@^0.139.0":
+  version "0.139.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.139.0.tgz#69af1f0c52f8eea390f513e05478af1dd7f49e6f"
+  integrity sha512-4V/jZhyq7Mv05coUzxL3bz8AuBOSi/1F0RY7ujisHTV0Amy/fnYJ+s7TSJ1/hXjZukSkpuFRgV+wvWUEMbsMbQ==
 
 "@typescript-eslint/eslint-plugin@^4.33.0":
   version "4.33.0"
