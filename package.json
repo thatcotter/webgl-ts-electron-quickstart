@@ -25,7 +25,7 @@
     "@types/dat.gui": "^0.7.7",
     "@types/node": "^18.11.0",
     "@types/offscreencanvas": "^2019.6.4",
-    "@types/three": "^0.136.1",
+    "@types/three": "^0.144.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "electron": "^21.0.1",
