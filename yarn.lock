@@ -352,10 +352,17 @@
   resolved "https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.6.4.tgz"
   integrity sha512-u8SAgdZ8ROtkTF+mfZGOscl0or6BSj9A4g37e6nvxDc+YB/oDut0wHkK2PBBiC2bNR8TS0CPV+1gAk4fNisr1Q==
 
-"@types/three@^0.136.1":
-  version "0.136.1"
-  resolved "https://registry.npmjs.org/@types/three/-/three-0.136.1.tgz"
-  integrity sha512-gzTw6RR4dU8sGf+RpLBWWKHRVIJ4gwKVQPk+IFCgha04Efg/itXYUalX6iBcYeSmaDu0qE5M7uTq0XLQpU4FAg==
+"@types/three@^0.144.0":
+  version "0.144.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.144.0.tgz#a154f40122dbc3668c5424a5373f3965c6564557"
+  integrity sha512-psvEs6q5rLN50jUYZ3D4pZMfxTbdt3A243blt0my7/NcL6chaCZpHe2csbCtx0SOD9fI/XnF3wnVUAYZGqCSYg==
+  dependencies:
+    "@types/webxr" "*"
+
+"@types/webxr@*":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@types/webxr/-/webxr-0.5.0.tgz#aae1cef3210d88fd4204f8c33385a0bbc4da07c9"
+  integrity sha512-IUMDPSXnYIbEO2IereEFcgcqfDREOgmbGqtrMpVPpACTU6pltYLwHgVkrnYv0XhWEcjio9sYEfIEzgn3c7nDqA==
 
 "@types/yauzl@^2.9.1":
   version "2.10.0"
