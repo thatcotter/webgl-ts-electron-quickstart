@@ -274,10 +274,10 @@
   resolved "https://registry.yarnpkg.com/@pixi/ticker/-/ticker-6.5.8.tgz#708120bcadce7c4446e2238df590c54debbaed78"
   integrity sha512-7VKq5hfnRDSv6a16pATqZAmpQfEu4G171iUTloy3QZfbnPw0s3JervZSih1yJJD84GXEF4VzYB26pJ/x3arGjQ==
 
-"@pixi/unsafe-eval@^6.5.8":
-  version "6.5.8"
-  resolved "https://registry.yarnpkg.com/@pixi/unsafe-eval/-/unsafe-eval-6.5.8.tgz#a58bdb53e2780863cfb6b831b29e471b6cd795a1"
-  integrity sha512-lmh1CPNuxTuCQzslIAU0i245cRwD92BTI4wpKRF/OLDj5iqbv9DbPw1MEx+kfqKA/bQtQGS481Xib1+5zbyKQA==
+"@pixi/unsafe-eval@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@pixi/unsafe-eval/-/unsafe-eval-7.0.0.tgz#815e7435ced449af17d62766bba76646c337e6c3"
+  integrity sha512-CsVkpHkRlCqdhLvdpGTlXz8/Ucq9UQjMIN1A7S86gqziSPjGnKC/0ZbrbIaoLaHTJuDO7SQVc8c/uWIUfglNrg==
 
 "@pixi/utils@6.5.8":
   version "6.5.8"

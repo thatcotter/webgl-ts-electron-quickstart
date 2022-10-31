@@ -21,7 +21,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "@pixi/unsafe-eval": "^6.5.8",
+    "@pixi/unsafe-eval": "^7.0.0",
     "@types/dat.gui": "^0.7.7",
     "@types/node": "^18.11.7",
     "@types/offscreencanvas": "^2019.6.4",
