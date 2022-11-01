@@ -24,7 +24,7 @@
     "@pixi/unsafe-eval": "^7.0.2",
     "@types/dat.gui": "^0.7.7",
     "@types/node": "^18.11.9",
-    "@types/offscreencanvas": "^2019.6.4",
+    "@types/offscreencanvas": "^2019.7.0",
     "@types/three": "^0.144.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
