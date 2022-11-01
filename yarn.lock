@@ -281,10 +281,10 @@
     "@pixi/extensions" "7.0.2"
     "@pixi/settings" "7.0.2"
 
-"@pixi/unsafe-eval@^6.5.8":
-  version "6.5.8"
-  resolved "https://registry.yarnpkg.com/@pixi/unsafe-eval/-/unsafe-eval-6.5.8.tgz#a58bdb53e2780863cfb6b831b29e471b6cd795a1"
-  integrity sha512-lmh1CPNuxTuCQzslIAU0i245cRwD92BTI4wpKRF/OLDj5iqbv9DbPw1MEx+kfqKA/bQtQGS481Xib1+5zbyKQA==
+"@pixi/unsafe-eval@^7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@pixi/unsafe-eval/-/unsafe-eval-7.0.2.tgz#77ce11c0755bcef77cefc3057eba2235086ea355"
+  integrity sha512-WWYMJIbeyvOWs3D814foisANJS4R/ki3x1Wav1eh5NSyAghYGLlEWxgTxWshn+/XfZwbia2nX27LFQQ0trkfiQ==
 
 "@pixi/utils@7.0.2":
   version "7.0.2"
